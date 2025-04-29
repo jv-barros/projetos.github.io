@@ -1,0 +1,1048 @@
+/* página de projetos */
+
+/* import fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@300;700&display=swap');
+
+/* fonte abaixo n está funcionando, corrigir  */
+@font-face {
+    font-family: 'Flat Brush';
+    src: url('/FlatBrushRegular.otf') format('truetype');
+}
+
+body {
+
+    /* medidas para página toda principaal */
+    width: 100%;
+    max-width: 1920px;
+    height: 9046px;
+    margin: 0 auto; /* centraliza */
+}
+
+ /* criar div main para a responsividade  */
+.main {
+    /* iniciar alteracoes para responsividade */
+    position: relative;
+}
+
+
+
+.top-bar {
+    /* Layout Properties */
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 149px;
+    /* UI Properties */
+    background: #8F352A 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+
+    /* border: solid 10px blue; */
+}
+
+/* logo */
+/* adicionar imagem */
+.top-bar-logo {
+    /* Layout Properties */
+    top: 29px;
+    margin-left: 62px;
+    width: 271px;
+    height: 90px;
+    /* UI Properties */
+    opacity: 1;
+    position: relative;
+
+    background: transparent url('LOGO_COLORIDA_BRANCO.svg') 0% 0% no-repeat padding-box;
+
+}
+
+/* items menu */
+
+
+.top-bar-menu-inicio {
+    /* Layout Properties */
+    top: 58px;
+    margin-left: 804px;
+    width: 94px;
+    height: 38px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal bold 29px/38px Kodchasan;
+    letter-spacing: 0px;
+    color: #FFE7D2;
+    opacity: 1;
+
+    
+    /* border: solid 10px blue; */
+    position: absolute; 
+}
+
+.top-bar-menu-quemsomos {
+    /* Layout Properties */
+    top: 58px;
+    margin-left: 979px;
+    width: 214px;
+    height: 38px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 300 29px/38px Kodchasan;
+    letter-spacing: 0px;
+    color: #FFE7D2;
+    opacity: 1;
+
+    /* border: solid 10px blue; */
+    position: absolute;
+
+}
+
+.top-bar-menu-projetos {
+    /* Layout Properties */
+    top: 58px;
+    margin-left: 1278px;
+    width: 161px;
+    height: 38px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 300 29px/38px Kodchasan;
+    letter-spacing: 0px;
+    color: #FFE7D2;
+    opacity: 1;
+
+    /* border: solid 10px blue; */
+    position: absolute; 
+
+}
+
+
+.top-bar-menu-transparencia {
+    /* Layout Properties */
+    top: 58px;
+    margin-left: 1524px;
+    width: 256px;
+    height: 38px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 300 29px/38px Kodchasan;
+    letter-spacing: 0px;
+    color: #FFE7D2;
+    opacity: 1;
+
+    /* border: solid 10px blue; */
+    position: absolute; 
+    
+}
+
+/* seção com fundo bege */
+
+.main-div-text{
+    /* Layout Properties */
+    top: 149px;
+    left: 0px;
+    width: 1920px;
+    height: 1409px;
+    /* UI Properties */
+    /* alterar p fundo com casa */
+    background: transparent url('onda1.svg') 0% 0% no-repeat padding-box;
+    background-size: 100%;
+    position: absolute;
+    
+    opacity: 1;
+
+}
+
+.main-div-text-logo {
+    /* Layout Properties */
+    margin-top: 137.84px;
+    /* top: 287px; */
+    left: 494px;
+    width: 286px;
+    height: 286px;
+    /* UI Properties */
+    opacity: 1;
+
+    background-color: blue;
+    background: transparent url('logo.svg') 0% 0% no-repeat padding-box;
+    background-size: 100%;
+    position: absolute;
+
+}
+
+
+.main-div-text-title {
+    /* Layout Properties */
+    margin-top: 160.83px;
+     /* top: 310px; */
+     left: 840px;
+     width: 585px;
+     height: 239px;
+     /* UI Properties */
+     text-align: left;
+     font: normal normal normal 113px/108px Flat Brush;
+     letter-spacing: 0px;
+     color: #FFE7D3;
+     text-transform: uppercase;
+     opacity: 1; 
+     position: absolute
+ }
+
+
+.main-div-text-text-title {
+    /* Layout Properties */
+    /* top: 697px; */
+    margin-top: 548px;
+    left: 491px;
+    width: 551px;
+    height: 119px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 102px/98px Flat Brush;
+    letter-spacing: 0px;
+    color: #AF5902;
+    text-transform: uppercase;
+    opacity: 1;
+    position: absolute;
+}
+
+.main-div-text-text {
+    /* Layout Properties */
+    /* top: 862px; */
+    margin-top: 713px;
+    left: 491px;
+    width: 532px;
+    height: 622px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 25px/33px Kodchasan;
+    letter-spacing: 0px;
+    color: #FFE7D3;
+    opacity: 1;
+    position: absolute;
+}
+
+.imagem-projeto {
+
+
+    /* Layout Properties */
+    /* top: 741px; */
+    margin-top: 592px;
+    left: 1077px;
+    width: 512px;
+    height: 761px;
+    /* UI Properties */
+    background: transparent url('projeto.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+    position: absolute;
+    background-size: 100%;
+
+}
+
+
+
+/* seção título objetivos */
+
+.objetivos {
+    /* Layout Properties */
+    top: 1484px;
+    left: -0.0009765625px;
+    width: 1920px;
+    height: 1933px;
+    /* UI Properties */
+    /* background: #76A860 0% 0% no-repeat padding-box; */
+    opacity: 1;
+
+    /* position: absolute; */
+    background: transparent url('onda2.svg') 0% 0% no-repeat padding-box;
+    background-size: 100%;
+    position: absolute;
+   
+    
+
+    
+}
+
+
+.objetivos-title {
+    /* Layout Properties */
+    /* top: 1600px; */
+    margin-top: 215.75px;
+    margin-left: 796px;
+    width: 328px;
+    height: 119px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal normal 102px/98px Flat Brush;
+    letter-spacing: 0px;
+    color: #FFE7D3;
+    text-transform: uppercase;
+    opacity: 1;
+    position: absolute;
+
+}
+
+.objetivos-icons-1{
+    /* Layout Properties */
+    margin-top: 377.75px;
+    margin-left: 494px;
+    width: 932px;
+    height: 230px;
+    /* UI Properties */
+    background: #52773D 0% 0% no-repeat padding-box;
+    border-radius: 66px;
+    opacity: 1;
+}
+
+.objetivos-icons-1-image {
+    /* Layout Properties */
+    /* top: 1812px; */
+    margin-top: 50.15px;
+    margin-left: 52.15px;
+    width: 119px;
+    height: 130px;
+    /* UI Properties */
+    opacity: 1;
+
+    /* background-color: blue; */
+    background: transparent url('maos-icon.tif.svg') 0% 0% no-repeat padding-box;
+    background-size: 100%;
+
+    position: absolute;
+    
+}
+
+.objetivos-icons-1-text {
+    /* Layout Properties */
+    /* top: 1794px; */
+    margin-top: 32px;
+    margin-left: 218px;
+    /* Layout Properties */
+    width: 600px;
+    height: 33px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 25px/33px Kodchasan;
+    letter-spacing: 0px;
+    color: #FFE7D3;
+
+    position: absolute;
+
+
+}
+
+.objetivos-icons-2 {
+    /* Layout Properties */
+    margin-top: 17px;
+    margin-left: 494px;
+    width: 932px;
+    height: 230px;
+    /* UI Properties */
+    background: #52773D 0% 0% no-repeat padding-box;
+    border-radius: 66px;
+    opacity: 1;
+
+
+}
+
+.objetivos-icons-2-image {
+    /* Layout Properties */
+    /* top: 1812px; */
+    margin-top: 50.15px;
+    margin-left: 52.15px;
+    width: 119px;
+    height: 130px;
+    /* UI Properties */
+    opacity: 1;
+
+    /* background-color: blue; */
+    position: absolute;
+
+    background: transparent url('paint-icon.tif.svg') 0% 0% no-repeat padding-box;
+    background-size: 100%;
+    
+}
+
+.objetivos-icons-2-text {
+    /* Layout Properties */
+    /* top: 1794px; */
+    margin-top: 32px;
+    margin-left: 218px;
+    /* Layout Properties */
+    width: 600px;
+    height: 33px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 25px/33px Kodchasan;
+    letter-spacing: 0px;
+    color: #FFE7D3;
+
+    position: absolute;
+
+
+}
+
+.objetivos-icons-3 {
+    /* Layout Properties */
+    margin-top: 17px;
+    margin-left: 494px;
+    width: 932px;
+    height: 230px;
+    /* UI Properties */
+    background: #52773D 0% 0% no-repeat padding-box;
+    border-radius: 66px;
+    opacity: 1;
+
+
+}
+
+.objetivos-icons-3-image {
+    /* Layout Properties */
+    /* top: 1812px; */
+    margin-top: 50.15px;
+    margin-left: 52.15px;
+    width: 119px;
+    height: 130px;
+    /* UI Properties */
+    opacity: 1;
+
+    position: absolute;
+
+    background: transparent url('star.tif.svg') 0% 0% no-repeat padding-box;
+    background-size: 100%;
+    
+}
+
+.objetivos-icons-3-text {
+    /* Layout Properties */
+    /* top: 1794px; */
+    margin-top: 32px;
+    margin-left: 218px;
+    /* Layout Properties */
+    width: 600px;
+    height: 33px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 25px/33px Kodchasan;
+    letter-spacing: 0px;
+    color: #FFE7D3;
+
+    position: absolute;
+
+
+}
+
+.objetivos-image {
+    /* background: transparent url('DEMOCRATIZAR_CONHECIMENTO.svg') 0% 0% no-repeat padding-box; */
+    /* Layout Properties */
+    top: 2549px;
+    margin-left: 390px;
+    width: 1140px;
+    height: 760px;
+    /* UI Properties */
+    background: transparent url('objetivos.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+    background-size: 100%;
+}
+
+
+/* seção diferenciais */
+.diferenciais {
+    /* Layout Properties */
+    top: 3279px;
+    left: -0.0009765625px;
+    width: 100%;
+    height: 3301px;
+    /* UI Properties */
+    /* background: #D52616 0% 0% no-repeat padding-box; */
+    background: transparent url('onda3.svg') 0% 0% no-repeat padding-box;
+
+    opacity: 1;
+    background-size: 100%;
+    position: absolute;    
+}
+.diferenciais-title {
+    /* Layout Properties */
+    /* top: 3468px; */
+    margin-top: 289px;
+    margin-left: 753px;
+    width: 414px;
+    height: 119px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 102px/98px Flat Brush;
+    letter-spacing: 0px;
+    color: #FFE7D3;
+    text-transform: uppercase;
+    opacity: 1;
+
+}
+
+
+.diferenciais-icons-1 {
+    /* Layout Properties */
+    /* top: 3645px; */
+    margin-top: 66.4px;
+    margin-left: 440px;
+    width: 331px;
+    height: 636px;
+    /* UI Properties */
+    background: #8F352A 0% 0% no-repeat padding-box;
+    border-radius: 76px;
+    opacity: 1;
+
+    position: absolute; 
+}
+
+.diferenciais-icons-1-icon {
+    /* Layout Properties */
+    /* top: 3680px; */
+    margin-top: 30px;
+    /* left: 530px; */
+    margin-left: 90.02px;
+    width: 133px;
+    height: 133px;
+    /* UI Properties */
+    opacity: 1;
+    background-color: #52773D;
+
+    background: transparent url('flow-icon.tif.svg') 0% 0% no-repeat padding-box;
+    background-size: 100%;
+}
+
+.diferenciais-icons-1-title {
+    margin-left: 45px;
+    margin-top: 10px;;
+    
+    /* Layout Properties */
+    /* top: 3853px; */
+    /* left: 485px; */
+    width: 215px;
+    height: 66px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal bold 25px/33px Kodchasan;
+    letter-spacing: 0px;
+    color: #FFE7D3;
+    opacity: 1;
+}
+
+.diferenciais-icons-1-text {
+    /* Layout Properties */
+    top: 3935px;
+    /* left: 481px; */
+    margin-left: 41px;
+    width: 249px;
+    height: 289px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 20px/26px Kodchasan;
+    letter-spacing: 0px;
+    color: #FFE7D3;
+    opacity: 1;
+}
+
+.diferenciais-icons-2 {
+    /* Layout Properties */
+    /* top: 3645px; */
+    margin-top: 66.4px;
+    margin-left: 795px;
+    width: 331px;
+    height: 636px;
+    /* UI Properties */
+    background: #8F352A 0% 0% no-repeat padding-box;
+    border-radius: 76px;
+    opacity: 1;
+    position: absolute;
+
+}
+
+.diferenciais-icons-2-icon {
+    /* Layout Properties */
+    top: 3680px;
+    /* left: 530px; */
+    margin-top: 30px;
+    margin-left: 90.02px;
+    width: 133px;
+    height: 133px;
+    /* UI Properties */
+    opacity: 1;
+    background: transparent url('location-icon.tif.svg') 0% 0% no-repeat padding-box;
+    background-size: 100%;
+}
+
+.diferenciais-icons-2-title {
+    margin-left: 45px;
+    
+    /* Layout Properties */
+    /* top: 3853px; */
+    margin-top: 10px;
+    /* left: 485px; */
+    width: 215px;
+    height: 66px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal bold 25px/33px Kodchasan;
+    letter-spacing: 0px;
+    color: #FFE7D3;
+    opacity: 1;
+}
+
+.diferenciais-icons-2-text {
+    /* Layout Properties */
+    top: 3935px;
+    /* left: 481px; */
+    margin-left: 41px;
+    width: 249px;
+    height: 289px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 20px/26px Kodchasan;
+    letter-spacing: 0px;
+    color: #FFE7D3;
+    opacity: 1;
+}
+
+.diferenciais-icons-3 {
+    /* Layout Properties */
+    margin-top: 66.4px;
+    margin-left: 1163px;
+    width: 331px;
+    height: 636px;
+    /* UI Properties */
+    background: #8F352A 0% 0% no-repeat padding-box;
+    border-radius: 76px;
+    opacity: 1;
+    position: absolute;
+}
+
+.diferenciais-icons-3-icon {
+    /* Layout Properties */
+    top: 3680px;
+    /* left: 530px; */
+    margin-top: 30px;
+    margin-left: 90.02px;
+    width: 133px;
+    height: 133px;
+    /* UI Properties */
+    opacity: 1;
+    background-color: #52773D;
+    background: transparent url('mao-fechada-icon.tif.svg') 0% 0% no-repeat padding-box;
+    background-size: 50%;
+}
+
+.diferenciais-icons-3-title {
+    margin-left: 45px;
+    margin-top: 10px;
+    
+    /* Layout Properties */
+    /* top: 3853px; */
+    /* left: 485px; */
+    width: 215px;
+    height: 66px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal bold 25px/33px Kodchasan;
+    letter-spacing: 0px;
+    color: #FFE7D3;
+    opacity: 1;
+}
+
+.diferenciais-icons-3-text {
+    /* Layout Properties */
+    top: 3935px;
+    /* left: 481px; */
+    margin-left: 41px;
+    width: 249px;
+    height: 289px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 20px/26px Kodchasan;
+    letter-spacing: 0px;
+    color: #FFE7D3;
+    opacity: 1;
+}
+
+.diferenciais-icons-4 {
+    /* Layout Properties */
+    /* top: 4329px; */
+    margin-top: 750px;
+    left: 440px;
+    width: 1054px;
+    height: 969px;
+    /* UI Properties */
+    background: #8F352A 0% 0% no-repeat padding-box;
+    border-radius: 76px;
+    opacity: 1;
+    position: absolute;
+}
+
+.diferenciais-icons-4-title {
+    /* Layout Properties */
+    /* top: 4377px; */
+    /* left: 776px; */
+    margin-left: 335.75px;
+    margin-top: 47.62px;
+    width: 473px;
+    height: 52px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal bold 40px/52px Kodchasan;
+    letter-spacing: 0px;
+    color: #FFE7D3;
+    opacity: 1;
+}
+
+.diferenciais-icons-4-icon-1 {
+    /* Layout Properties */
+    /* top: 4391px;
+    left: 485px; */
+    /* margin-top: 61.19px; */
+    margin-left: 45px;
+    width: 229px;
+    height: 193px;
+    /* UI Properties */
+    opacity: 1;
+
+    /* background-color: #52773D; */
+    background: transparent url('onu-icon.svg') 0% 0% no-repeat padding-box;
+    background-size: 100%;
+}
+
+.diferenciais-icons-4-text-1 {
+    /* Layout Properties */
+    /* top: 4450px;
+    left: 776px; */
+    margin-top: -152.38px;
+    margin-left: 304px;
+    width: 669px;
+    height: 132px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 600 25px/33px Kodchasan;
+    letter-spacing: 0px;
+    color: #FFE7D3;
+    opacity: 1;
+
+}
+
+.diferenciais-icons-4-icon-2 {
+    /* Layout Properties */
+    /* top: 4391px;
+    left: 485px; */
+    margin-top: 41.19px;
+    margin-left: 75px;
+    width: 229px;
+    height: 193px;
+    /* UI Properties */
+    opacity: 1;
+
+    /* background-color: #52773D; */
+    background: transparent url('4.jpg') 0% 0% no-repeat padding-box;
+    background-size: 70%;
+}
+
+.diferenciais-icons-4-text-2 {
+    /* Layout Properties */
+    /* top: 4450px;
+    left: 776px; */
+    margin-top: -162.38px;
+    margin-left: 304px;
+    width: 669px;
+    height: 132px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 25px/33px Kodchasan;
+    letter-spacing: 0px;
+    color: #FFE7D3;
+    opacity: 1;
+
+}
+
+.diferenciais-icons-4-icon-3 {
+    /* Layout Properties */
+    /* top: 4391px;
+    left: 485px; */
+    margin-top: 51.19px;
+    margin-left: 75px;
+    width: 229px;
+    height: 193px;
+    /* UI Properties */
+    opacity: 1;
+
+    /* background-color: #52773D; */
+    background: transparent url('10.jpg') 0% 0% no-repeat padding-box;
+    background-size: 70%;
+}
+
+.diferenciais-icons-4-text-3 {
+    /* Layout Properties */
+    /* top: 4450px;
+    left: 776px; */
+    margin-top: -152.38px;
+    margin-left: 304px;
+    width: 669px;
+    height: 132px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 25px/33px Kodchasan;
+    letter-spacing: 0px;
+    color: #FFE7D3;
+    opacity: 1;
+
+}
+
+.diferenciais-icons-4-icon-4 {
+    /* Layout Properties */
+    /* top: 4391px;
+    left: 485px; */
+    margin-top: 41.19px;
+    margin-left: 75px;
+    width: 229px;
+    height: 193px;
+    /* UI Properties */
+    opacity: 1;
+
+    /* background-color: #52773D; */
+    background: transparent url('17.jpg') 0% 0% no-repeat padding-box;
+    background-size: 70%;
+}
+
+.diferenciais-icons-4-text-4 {
+    /* Layout Properties */
+    /* top: 4450px;
+    left: 776px; */
+    margin-top: -162.38px;
+    margin-left: 304px;
+    width: 669px;
+    height: 132px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 25px/33px Kodchasan;
+    letter-spacing: 0px;
+    color: #FFE7D3;
+    opacity: 1;
+
+}
+
+
+
+.diferenciais-icons-5 {
+    /* Layout Properties */
+    /* top: 5346px; */
+    margin-top: 1800px;
+    left: 440px;
+    width: 1054px;
+    height: 320px;
+    /* UI Properties */
+    background: #8F352A 0% 0% no-repeat padding-box;
+    border-radius: 76px;
+    opacity: 1;
+    position: absolute;
+}
+
+.diferenciais-icons-5-icon {
+    /* Layout Properties */
+    top: 5452px;
+    /* left: 503px; */
+    margin-top: 105.41px;
+    margin-left: 63px;
+    width: 240px;
+    height: 109px;
+    /* UI Properties */
+    opacity: 1;
+    /* background-color: #52773D; */
+
+    background: transparent url('rouanet.svg') 0% 0% no-repeat padding-box;
+    background-size: 100%;
+
+ 
+}
+
+.diferenciais-icons-5-text {
+    /* Layout Properties */
+    margin-top: -150.82px;
+    margin-left: 333px;
+
+    width: 593px;
+    height: 33px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 25px/33px Kodchasan;
+    letter-spacing: 0px;
+    color: #FFE7D3;
+}
+
+.diferenciais-image {
+    /* Layout Properties */
+    top: 2600px;
+    margin-left: 488px;
+    width: 1144px;
+    height: 762px;
+    /* UI Properties */
+    background: transparent url('Diferenciais.png') 0% 0% no-repeat padding-box;
+    background-size: 85%;
+    opacity: 1;
+    position: absolute; 
+}
+
+.paranoa {
+    /* Layout Properties */
+    top: 6523px;
+    left: -0.0009765625px;
+    width: 1920px;
+    height: 2154px;
+    /* UI Properties */
+    background: #FFE7D3 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+
+    background: transparent url('onda4.svg') 0% 0% no-repeat padding-box;
+    background-size: 100%;
+}
+
+.paranoa-title {
+    /* Layout Properties */
+    /* top: 6676px; */
+    margin-top: 303.42px;
+    margin-left: 638px;
+    width: 644px;
+    height: 119px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 102px/98px Flat Brush;
+    letter-spacing: 0px;
+    color: #8F352A;
+    text-transform: uppercase;
+    opacity: 1;
+    /* position: absolute; */
+}
+
+.paranoa-image {
+    /* Layout Properties */
+    top: 6795px;
+    margin-left: 345px;
+    width: 1230px;
+    height: 1209px;
+    /* UI Properties */
+    background: transparent url('paranoa.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    /* position: absolute; */
+    background-size: 100%;
+
+}
+
+.paranoa-text {
+    /* Layout Properties */
+    top: 8047px;
+    margin-left: 440px;
+    width: 1054px;
+    height: 429px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 25px/33px Kodchasan;
+    letter-spacing: 0px;
+    color: #8F352A;
+    opacity: 1;
+    /* position: absolute; */
+}
+
+
+.footer {
+    /* Layout Properties */
+    margin-top: 8476px;
+    left: 0px;
+    width: 100%;
+    height: 369px;
+    /* UI Properties */
+    background: #52773D 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+    /* position: absolute; */
+
+
+}
+
+.footer-logo {
+    /* Layout Properties */
+    margin-top: 87.94px;
+    left: 313px;
+    width: 298px;
+    height: 99px;
+    /* UI Properties */
+    opacity: 1;
+
+    position: absolute;
+
+    background: transparent url('LOGO_BEGE.svg') 0% 0% no-repeat padding-box;
+
+}
+
+.footer-text {
+    /* Layout Properties */
+    margin-top: 221.06px;
+    left: 313px;
+    width: 596px;
+    height: 60px;
+    /* UI Properties */
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFE7D3;
+    opacity: 1;
+
+    position: absolute;
+}
+
+.footer-text-1 {
+    /* Layout Properties */
+        top: 0px;
+        left: 0px;
+        width: 206px;
+        height: 30px;
+        /* UI Properties */
+        text-align: left;
+        font: normal normal 23px/30px Kodchasan;
+        letter-spacing: 0px;
+        color: #FFE7D3;
+}
+
+.footer-icons {
+    margin-top: 221.06px;
+    left: 1505px;
+    width: 268px;
+    height: 61px;
+    opacity: 1;
+    position: absolute;
+    /* background-color: purple; */ /* Uncomment if needed */
+}
+
+.footer-icons-1,
+.footer-icons-2,
+.footer-icons-3,
+.footer-icons-4 {
+    background-size: contain;
+    width: 67px;
+    height: 100%;
+    position: absolute;
+}
+
+/* Position each icon */
+.footer-icons-1 {
+    left: 0;
+    background: transparent url('INSTA.svg') no-repeat center center;
+}
+
+.footer-icons-2 {
+    left: 67px;
+    background: transparent url('E-MAIL.svg') no-repeat center center;
+}
+
+.footer-icons-3 {
+    left: 134px;
+    background: transparent url('WPP.svg') no-repeat center center;
+}
+
+.footer-icons-4 {
+    left: 201px; /* Fixed to correctly stack (67*3) */
+    background: transparent url('FACEBOOK.svg') no-repeat center center;
+}
